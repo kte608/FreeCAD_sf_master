@@ -7,8 +7,14 @@ apt-get --force-yes -y install build-essential
 apt-get --force-yes -y install cmake
 apt-get --force-yes -y install python
 apt-get --force-yes -y install python-matplotlib
+apt-get --force-yes -y install python-pyside
+apt-get --force-yes -y install libpyside-dev
+apt-get --force-yes -y install pyside-tools
+
 apt-get --force-yes -y install libtool
 apt-get --force-yes -y install libcoin80-dev
+apt-get --force-yes -y install libcoin80-doc
+
 apt-get --force-yes -y install libsoqt4-dev
 apt-get --force-yes -y install libxerces-c-dev
 apt-get --force-yes -y install libboost-dev
@@ -21,10 +27,15 @@ apt-get --force-yes -y install libqt4-dev
 apt-get --force-yes -y install libqt4-opengl-dev
 apt-get --force-yes -y install qt4-dev-tools
 apt-get --force-yes -y install python-dev
-apt-get --force-yes -y install libopencascade-dev
+#apt-get --force-yes -y install libopencascade-dev
+apt-get --force-yes -y install libshiboken-dev
 
-#apt-get --force-yes -y install      liboce*-dev (opencascade community edition)
-#apt-get --force-yes -y install oce-draw
+#(opencascade community edition)
+apt-get --force-yes -y install liboce-foundation-dev 
+apt-get --force-yes -y install liboce-modeling-dev
+apt-get --force-yes -y install liboce-ocaf-dev
+apt-get --force-yes -y install liboce-visualization-dev   
+apt-get --force-yes -y install oce-draw
 
 apt-get --force-yes -y install gfortran
 apt-get --force-yes -y install libeigen3-dev
@@ -45,7 +56,7 @@ apt-get --force-yes -y install python-pivy
 apt-get --force-yes -y install python-qt4 
 #(if you intend to generate source code documentation)
 apt-get --force-yes -y install doxygen
-apt-get --force-yes -y install libcoin60-doc 
+apt-get --force-yes -y install libcoin80-doc 
 #(for 3Dconnexion devices support like the Space Navigator or Space Pilot)
 apt-get --force-yes -y install libspnav-dev 
 
